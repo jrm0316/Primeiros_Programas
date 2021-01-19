@@ -1,0 +1,10 @@
+n = int(input('Digite um valor: '))
+print('O valor digitado foi ', n)
+
+m = n * 2
+a = n * 3
+e=(n ** (1/2))
+#e = pow(n, (1/2))
+
+#print('e', e)
+print('O dobro do valor é {} \nO triplo é {} \nA Raíz Quadrada é {:.2f}'.format(m, a, e))
