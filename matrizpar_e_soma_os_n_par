@@ -1,0 +1,25 @@
+inicio
+      Para L <- 1 ate 3 faca
+           Para c <- 1 ate 3 faca
+                Escreva("Digite o valor da posição  [", L, ",", c, "]: ")
+                Leia(valores [L, c])
+           FimPara
+      FimPara
+
+      Escreval( )
+      Escreval("MATRIZ")
+      Escreval("-----------")
+      TotPar <- 0
+             Para L <- 1 ate 3 faca
+                  Para c <- 1 ate 3 faca
+                       Se(valores[l, c] % 2 = 0) entao
+                           Escreva("{", valores[L, c]: 2, "}")
+                           TotPar <- TotPar + 1
+                       Senao
+                           Escreva(valores[L, c]: 4)
+                       FimSe
+             FimPara
+                    Escreval( )
+                  FimPara
+      Escreval("Ao todo foram digitados", TotPar, " valores PARES ")
+fimalgoritmo
