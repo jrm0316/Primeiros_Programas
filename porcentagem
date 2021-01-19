@@ -1,0 +1,7 @@
+n = float(input('Qual é o salário do funcionário?  R$ '))
+m = float(input('Qual será a porcentagem de aumento de salário: '))
+
+calculo_aumento_salario = (n * m)/100
+
+calculo_novo_salario = n + calculo_aumento_salario
+print('O novo salário com {:.0f}% de desconto será de R$ {:.2f}'.format(m, calculo_novo_salario))
