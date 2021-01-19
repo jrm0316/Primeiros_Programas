@@ -1,0 +1,6 @@
+n = int(input('Digite um valor em metros: '))
+c = n * 100
+print('O valor de {} em centímetros é {}'.format (n, c))
+
+d = n * 1000
+print('O valor de {} em  milímetros é {}' .format(n, d))
